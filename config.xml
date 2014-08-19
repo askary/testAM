@@ -11,14 +11,14 @@
   
   <name>Alianza Médica</name>
   
-  <description>Aplicación para la actulización.</description>
+  <description>Educación Medica para la actulización continua para benefecio de sus pacientes y México.</description>
   
   <author href="https://oja.la/" email="ejemplo@oja.la">Askary Almazán Lazcano</author>
   
   <gap:platform name="ios" />
   <gap:platform name="android" />
   
-  <preference name="phonegap-version" value="3.4.0" />
+  <preference name="phonegap-version" value="3.5.0" />
   <preference name="orientation" value="portrait" />
   <preference name="fullscreen" value="true" />
   
