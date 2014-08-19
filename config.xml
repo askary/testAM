@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.AlianzaMedica.AlianzaMedica"
+        version     = "1.0.0" 
+        versionCode = "1" 
+		>
+    <!-- versionCode es un atributo opcional
+		 y solo es utilizado por Android -->
+  
+  <name>Alianza Médica</name>
+  
+  <description>Aplicación para la actulización.</description>
+  
+  <author href="https://oja.la/" email="ejemplo@oja.la">Askary Almazán Lazcano</author>
+  
+  <gap:platform name="ios" />
+  <gap:platform name="android" />
+  
+  <preference name="phonegap-version" value="3.4.0" />
+  <preference name="orientation" value="portrait" />
+  <preference name="fullscreen" value="true" />
+  
+  <icon src="icon.png" />
+  <gap:splash src="splash.png" />
+
+  <gap:plugin name="org.apache.cordova.device-motion" />
+  <gap:plugin name="org.apache.cordova.camera" />
+  <gap:plugin name="org.apache.cordova.media-capture" />
+  <gap:plugin name="org.apache.cordova.file" />
+  <gap:plugin name="org.apache.cordova.device-orientation" />
+  <gap:plugin name="org.apache.cordova.contacts" />
+  <gap:plugin name="org.apache.cordova.battery-status" />
+  <gap:plugin name="org.apache.cordova.geolocation" />
+  <gap:plugin name="org.apache.cordova.globalization" />
+  <gap:plugin name="org.apache.cordova.inappbrowser" />
+  <gap:plugin name="org.apache.cordova.media" />
+  <gap:plugin name="org.apache.cordova.dialogs" />
+  
+</widget>
