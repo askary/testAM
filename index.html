@@ -16,7 +16,20 @@
       $.mobile.pageLoadErrorMessage = "Error al cargar la página";
       $.mobile.pageLoadErrorMessageTheme = "a"; 
     });
+$( document ).ready(function() {
 
+
+		$.ajax({
+		   type: "POST",
+		   url: "alianzamedicamexicana.com/backendAppAM/continidoHome.php",
+		   cache: false,
+		   data: "cedulaMG=2",
+		   success: function(msg){
+			//alert(msg);
+			$("#contenidoHome").html(msg);
+		   }
+	    });	
+});
     </script>   
     
 	<script src="js/jquery.mobile-1.4.3.min.js"></script>
@@ -32,7 +45,7 @@
 	</div><!-- /header -->
 
 	<div role="main" class="ui-content jqm-content">
-
+	<div id="contenidoHome"></div>
 		<h1>Demos</h1>
 <div id="row"></div>
 		<p><strong>jQuery Mobile is a touch-optimized HTML5 UI framework designed to make responsive web sites and apps that are accessible on all smartphone, tablet and desktop devices.</strong></p>
