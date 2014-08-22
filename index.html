@@ -16,41 +16,40 @@
       $.mobile.pageLoadErrorMessage = "Error al cargar la página";
       $.mobile.pageLoadErrorMessageTheme = "a"; 
     });
-$( document ).ready(function() {
+	
 
-	/*function get_MainContent(){
-		$.ajax({
-		   type: "POST",
-		   url: "http://alianzamedicamexicana.com/backendAppAM/continidoHome.php",
-		   cache: false,
-		   data: "cedulaMG=2",
-		   success: function(msg){
-			//alert(msg);
-			$("#contenidoHome").html(msg);
-		   }
-		});
-	}*/
-	//function get_MenuContent(){
-		alert("sssds");
-		$.ajax({
-		   type: "POST",
-		   url: "http://alianzamedicamexicana.com/backendAppAM/menu.php",
-		   cache: false,
-		   data: "cedulaMG=2",
-		   success: function(msg){
-			//alert(msg);
-			$("#content_menu").html(msg);
-		   }
-		});
-	//}
-});
+	$( document ).ready(function() {
+		   $.ajax({
+			   type: "POST",
+			   url: "http://alianzamedicamexicana.com/backendAppAM/menu.php",
+			   cache: false,
+			   data: "as",
+			   success: function(msg){
+				//alert(msg);
+				$("#menu_content").html();
+
+			   }
+		    });
+			$.ajax({
+			   type: "POST",
+			   url: "http://alianzamedicamexicana.com/backendAppAM/continidoHome.php",
+			   cache: false,
+			   data: "as",
+			   success: function(msg){
+				//alert(msg);
+				$("#main_content").html();
+
+			   }
+		    });
+			
+		
+	});
     </script>   
     
 	<script src="js/jquery.mobile-1.4.3.min.js"></script>
 </head>
 <body>
 <div data-role="page" class="jqm-demos jqm-home">
-
 	<div data-role="header" class="jqm-header">
 		<h2><img src="assets/img/jquery-logo.png" alt="jQuery Mobile"></h2>
 		<p>Version <span class="jqm-version"></span></p>
@@ -59,12 +58,12 @@ $( document ).ready(function() {
 	</div><!-- /header -->
 
 	<div role="main" class="ui-content jqm-content">
-	<div id="contenidoHome"></div>
+    <div id="main_content"></div>
 		<h1>Demos</h1>
 <div id="row"></div>
 		<p><strong>jQuery Mobile is a touch-optimized HTML5 UI framework designed to make responsive web sites and apps that are accessible on all smartphone, tablet and desktop devices.</strong></p>
 
-		<img src="_assets/img/devices.png">
+		<img src="assets/img/devices.png">
 
 		<p>New to jQuery Mobile? Get started by reading this <a href="intro/index.html" data-ajax="false">introduction</a>. For technical info, visit the <a href="http://api.jquerymobile.com/" title="jQuery Mobile API documentation" target="_blank">API documentation</a>. Downloads and info about the project can be found on <a href="http://jquerymobile.com/" title="jQuery Mobile web site" target="_blank">jquerymobile.com</a>.</p>
 
@@ -117,11 +116,14 @@ $( document ).ready(function() {
         </div>
 
 	</div><!-- /content -->
-	    
-<div id="content_menu"></div>        
-        
-        <!-- /panel -->
-<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
+	    <div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+	    	<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
+            <!-- start content --><div id="menu_content"></div><!-- end content -->
+		     </ul>
+		</div><!-- /panel -->
+
+
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
 		<p>jQuery Mobile Demos version <span class="jqm-version"></span></p>
 		<p>Copyright 2014 The jQuery Foundation</p>
 	</div><!-- /footer -->
@@ -432,6 +434,4 @@ $( document ).ready(function() {
 </div><!-- /page -->
 
 </body>
-
-<!-- Mirrored from demos.jquerymobile.com/1.4.3/ by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 02 Aug 2014 03:23:55 GMT -->
 </html>
