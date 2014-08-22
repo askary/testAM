@@ -18,7 +18,7 @@
     });
 $( document ).ready(function() {
 
-	function get_MainContent(){
+	//function get_MainContent(){
 		$.ajax({
 		   type: "POST",
 		   url: "http://alianzamedicamexicana.com/backendAppAM/continidoHome.php",
@@ -29,8 +29,8 @@ $( document ).ready(function() {
 			$("#contenidoHome").html(msg);
 		   }
 		});
-	}
-	function get_MenuContent(){
+	//}
+	//function get_MenuContent(){
 		alert("sssds");
 		$.ajax({
 		   type: "POST",
@@ -42,7 +42,7 @@ $( document ).ready(function() {
 			$("#content_menu").html(msg);
 		   }
 		});
-	}
+	//}
 });
     </script>   
     
