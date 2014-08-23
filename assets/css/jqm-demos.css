@@ -57,14 +57,14 @@
 }
 .jqm-demos .jqm-footer p {
 	font-size: .8em;
-	color: #999;
+	color: #FFF;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	margin: 0 1.25em 1.25em;
 }
 .jqm-demos .jqm-footer p:first-child {
 	font-size: 1em;
-	color: #666;
+	color: #FFF;
 	font-weight: 400;
 	margin: 1em 1em .75em;
 }
