@@ -146,10 +146,20 @@ alert("document ready");
 		</div><!-- /panel -->
 
 
-	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
-		<p>Alianza Médica <span class="jqm-version"></span></p>
-		<p>Copyright 2014 Alianza Médica</p>
-	</div><!-- /footer -->
+
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false">
+     <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="#" data-icon="grid">Menu</a></li>
+                <li><a href="#" data-icon="home" class="ui-btn-active">Home</a></li>
+                <li><a href="#" data-icon="user">Mi perfil</a></li>
+                
+            </ul>
+        </div><!-- /navbar -->
+	</div>
+    <!-- /footer -->
+    
+    
 	<!-- TODO: This should become an external panel so we can add input to markup (unique ID) -->
     <div data-role="panel" class="jqm-search-panel" data-position="right" data-display="overlay" data-theme="a">
 		<div class="jqm-search">
