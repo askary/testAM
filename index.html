@@ -20,12 +20,15 @@
 
 
 
-document.addEventListener("deviceready", onDeviceReady, false);
 
-function onDeviceReady() {
-    console.log(" ****	Dispositivo Listo	**** ");
-	alert(" ****	Dispositivo Listo	**** ");
-}
+$( document ).ready(function() {
+
+
+	function onDeviceReady() {
+	   
+		alert(" ****	Dispositivo Listo	**** ");
+	}
+});
     </script>   
     
 	<script src="js/jquery.mobile-1.4.3.min.js"></script>
