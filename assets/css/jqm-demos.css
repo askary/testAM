@@ -89,7 +89,7 @@
 .jqm-demos .jqm-content > h2 {
 	color: #5A328D;
 	background-color: transparent;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #5A328D;
 	font-size: 1.6em;
 	padding-bottom: .2em;
 	margin: 0 0 .7375em;
@@ -154,7 +154,7 @@
 	font-size: 1.5em;
 	font-weight: 300;
 	color: #5A328D;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #5A328D;
 	padding-bottom: .25em;
 	margin: 0 0 .5em;
 }
@@ -398,7 +398,7 @@
 	.jqm-navmenu-panel .ui-collapsible-content,
 	.jqm-navmenu-panel .ui-btn {
 		background: none !important;
-		border-color: #ddd !important;
+		border-color: #E8E8E8 !important;
 	}
 	.jqm-navmenu-panel .ui-btn.ui-btn-active {
 		color: #3388cc !important;
