@@ -21,13 +21,13 @@
 
 
 
-$( document ).ready(function() {
+$( document ).ready(function(e) {
 alert("document ready");
+//$("#main_content").load("aasasasasa");
 
-	function onDeviceReady() {
-	   
-		alert(" ****	Dispositivo Listo	**** ");
-	}
+hola();
+
+
 });
     </script>   
     
@@ -36,27 +36,7 @@ alert("document ready");
  <body>
 
 <div data-role="page" class="jqm-demos jqm-home">
-<script type="text/javascript">
 
-	function menu(){
-		alert("entra en la funcion");
-/*		   $.ajax({
-			   type: "POST",
-			   url: "http://alianzamedicamexicana.com/backendAppAM/menu.php",
-			   cache: false,
-			   data: "a=1",
-			   success: function(msg){
-				alert(msg);
-				$("#menu_content").html(msg);
-					alert("entra"+msg);
-			   }
-		    });*/
-	}
-
-			
-		
-	
-</script>
 	<div data-role="header" class="jqm-header">
 		<h2><img src="assets/img/jquery-logo.png" alt="jQuery Mobile"></h2>
 		<p>Saludo!!! </p>
@@ -65,7 +45,7 @@ alert("document ready");
 	</div><!-- /header -->
 
 	<div role="main" class="ui-content jqm-content">
-    <div id="main_content"></div>
+    <div id="main_content">----</div>
 
 
         
