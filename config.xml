@@ -23,10 +23,6 @@
   <preference name="fullscreen" value="true" />
   <preference name="StatusBarOverlaysWebView" value="false" /> 
   <preference name="StatusBarBackgroundColor" value="#000000" />
-
-	
-<preference name="StatusBarOverlaysWebView" value="false" />
-<preference name="StatusBarBackgroundColor" value="#000000" />
   
   <icon src="icon.png" />
   <gap:splash src="splash.png" />
