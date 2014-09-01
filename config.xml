@@ -20,7 +20,7 @@
   
   <preference name="phonegap-version" value="3.5.0" />
   <preference name="orientation" value="portrait" />
-  <preference name="fullscreen" value="true" />
+  <preference name="fullscreen" value="false" />
   <preference name="StatusBarOverlaysWebView" value="true" /> 
   <preference name="StatusBarBackgroundColor" value="#000000" />
   
