@@ -13,7 +13,7 @@
   
   <description>Educación Medica para la actulización continua para benefecio de sus pacientes y México.</description>
   
-  <author href="https://oja.la/" email="ejemplo@oja.la">Askary Almazán Lazcano</author>
+  <author href="http://alianzamedicamexicana.com" email="askary.almazan@alianzamedica.com">Askary Almazán Lazcano</author>
   
   <gap:platform name="ios" />
   <gap:platform name="android" />
@@ -37,14 +37,11 @@
   <gap:plugin name="org.apache.cordova.inappbrowser" />
   <gap:plugin name="org.apache.cordova.media" />
   <gap:plugin name="org.apache.cordova.dialogs" />
-  
   <gap:plugin name="org.apache.cordova.splashscreen" />
-  <gap:plugin name="org.apache.cordova.camera" />
   <gap:plugin name="org.apache.cordova.inappbrowser" />
-  <gap:plugin name="org.apache.cordova.device-motion" />
-  <gap:plugin name="org.apache.cordova.media" />	
-  <gap:plugin name="org.apache.cordova.media-capture" />
-  <gap:plugin name="org.apache.cordova.statusbar" />	
+  <gap:plugin name="org.apache.cordova.statusbar" />
+  <gap:plugin name="org.apache.cordova.network-information" />
+ 	
   
   
   
