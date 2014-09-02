@@ -23,10 +23,10 @@
   <preference name="fullscreen" value="true" />
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="HideKeyboardFormAccessoryBar" value="true"/>
-  <preference name="StatusBarOverlaysWebView" value="false"/>
-  <preference name="StatusBarBackgroundColor" value="#3300CC"/>
-  <preference name="StatusBarStyle" value="blacktranslucent" />
 
+<preference name="StatusBarOverlaysWebView" value="true"/>
+<preference name="StatusBarBackgroundColor" value="#000000"/>
+<preference name="StatusBarStyle" value="blacktranslucent" />
 
   
   <icon src="icon.png" />
@@ -48,10 +48,7 @@
   <gap:plugin name="org.apache.cordova.inappbrowser" />
   <gap:plugin name="org.apache.cordova.statusbar" />
   <gap:plugin name="org.apache.cordova.network-information" />
-  
-          <feature name="StatusBar">
-            <param name="ios-package" value="CDVStatusBar" onload="true" />
-        </feature>
+
 
   
   
