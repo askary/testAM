@@ -49,7 +49,9 @@
   <gap:plugin name="org.apache.cordova.statusbar" />
   <gap:plugin name="org.apache.cordova.network-information" />
 
-
+ <feature name="StatusBar">
+            <param name="ios-package" value="CDVStatusBar" onload="true" />
+        </feature>
   
   
 
