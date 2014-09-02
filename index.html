@@ -19,6 +19,10 @@
 	
 
 
+
+
+$( document ).ready(function(e) {
+alert("document ready");
 function onDeviceReady() {
     if (parseFloat(window.device.version) === 7.0) {
           document.body.style.marginTop = "20px";
@@ -26,10 +30,11 @@ function onDeviceReady() {
 }
   
 document.addEventListener('deviceready', onDeviceReady, false);
-
-$( document ).ready(function(e) {
-//alert("document ready");
 //$("#main_content").load("aasasasasa");
+if (StatusBar.isVisible) {
+    // do something
+	alert("do something");
+}
 
 hola();
 
