@@ -21,12 +21,14 @@
   <preference name="phonegap-version" value="3.5.0" />
   <preference name="orientation" value="portrait" />
   <preference name="fullscreen" value="true" />
-  <preference name="StatusBarOverlaysWebView" value="false" /> 
+  <preference name="StatusBarOverlaysWebView" value="true" /> 
   <preference name="StatusBarBackgroundColor" value="#000000" />
   <preference name="DisallowOverscroll" value="true"/>
-  <preference name="HideKeyboardFormAccessoryBar" value="true"/>
+  <preference name="HideKeyboardFormAccessoryBar" value="false"/>
 
-
+ <feature name="StatusBar">
+ <param name="ios-package" value="CDVStatusBar" onload="true" />
+ </feature>
 
   
   <icon src="icon.png" />
