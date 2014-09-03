@@ -36,7 +36,9 @@
 	<preference name="StatusBarStyle" value="blacktranslucent" />
 
   
-
+<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
+    <false/>
+</gap:config-file>
 
 	<gap:plugin name="org.apache.cordova.device-motion" />
 	<gap:plugin name="org.apache.cordova.dialogs" />
