@@ -22,16 +22,7 @@
 
 
 $( document ).ready(function(e) {
-alert("document ready");
-if (parseFloat(window.device.version) == 7.0) {
-    alert("dentro del if");
- }
-function onDeviceReady() {
-/*    if (parseFloat(window.device.version) === 7.0) {
-          document.body.style.marginTop = "20px";
-    }*/
-	alert("dentro de funcion");
-}
+
   
 //document.addEventListener('deviceready', onDeviceReady, false);
 //$("#main_content").load("aasasasasa");
@@ -122,6 +113,10 @@ hola();
 
 
 </div><!-- /page -->
-
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
 </body>
 </html>
