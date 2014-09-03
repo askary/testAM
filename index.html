@@ -43,7 +43,7 @@ hola();
     <link href="owl-carousel/owl.theme.css" rel="stylesheet">
 
 </head>
- <body>
+  <body onLoad="onLoad()">
 
 <div data-role="page" class="jqm-demos jqm-home">
 
@@ -117,6 +117,12 @@ hola();
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
+			function onLoad(){
+				document.addEventListener('deviceready',onDeviceReady);
+			}
+			function onDeviceReady(){
+				StatusBar.overlaysWebView(false);
+			}
         </script>
 </body>
 </html>
