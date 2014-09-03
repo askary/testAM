@@ -31,9 +31,9 @@
    <preference name="DisallowOverscroll" value="true"/>
   <preference name="HideKeyboardFormAccessoryBar" value="true"/>
 
-<preference name="StatusBarOverlaysWebView" value="true"/>
-<preference name="StatusBarBackgroundColor" value="#000000"/>
-<preference name="StatusBarStyle" value="blacktranslucent" />
+	<preference name="StatusBarOverlaysWebView" value="true"/>
+	<preference name="StatusBarBackgroundColor" value="#000000"/>
+	<preference name="StatusBarStyle" value="blacktranslucent" />
 
   
 
@@ -63,9 +63,9 @@
   
   <icon src="icon.png" />
   <gap:splash src="splash.png" />
-<!-- <feature name="StatusBar">
+ <feature name="StatusBar">
             <param name="ios-package" value="CDVStatusBar" onload="true" />
-        </feature>-->
+        </feature>
   
   
 
