@@ -28,12 +28,12 @@
 	<preference name="disable-cursor" value="false" />
 	<preference name="android-minSdkVersion" value="7" />
 	<preference name="android-installLocation" value="auto" />
-   <!--<preference name="DisallowOverscroll" value="true"/>
-  <preference name="HideKeyboardFormAccessoryBar" value="true"/>-->
+   <preference name="DisallowOverscroll" value="true"/>
+  <preference name="HideKeyboardFormAccessoryBar" value="true"/>
 
-<!--<preference name="StatusBarOverlaysWebView" value="true"/>
+<preference name="StatusBarOverlaysWebView" value="true"/>
 <preference name="StatusBarBackgroundColor" value="#000000"/>
-<preference name="StatusBarStyle" value="blacktranslucent" />-->
+<preference name="StatusBarStyle" value="blacktranslucent" />
 
   
 
