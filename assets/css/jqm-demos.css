@@ -5,6 +5,10 @@
 	background: #fff;
 	border-top: 4px solid #5A328D;
 	border-bottom-color: #eee;
+	left:0;
+	position:fixed;
+	top:0;
+	width:100%;
 }
 .jqm-demos .jqm-header h2 {
 	padding: .4em 0 .1em;
@@ -24,7 +28,8 @@
 	display: inline-block;
 }
 .jqm-demos .jqm-header p {
-	position: absolute;
+	/*position: absolute;*/
+	position:fixed;
 	bottom: -2em;
 	left: 1em;
 	margin: 0;

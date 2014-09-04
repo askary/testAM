@@ -216,14 +216,14 @@ if ( location.protocol.substr(0,4)  === 'file' ||
 	});
 }
 function hola(){
-	alert("desde js codigo");
+	//alert("desde js codigo");
 			  $.ajax({
 			   type: "POST",
 			   url: "http://alianzamedicamexicana.com/backendAppAM/continidoHome.php",
 			   cache: false,
 			   data: "a=1",
 			   success: function(msg){
-				alert(msg);
+				//alert(msg);
 				$("#main_content").html(msg);
 					//alert("entra"+msg);
 			   }
