@@ -33,12 +33,12 @@
 
 	<preference name="StatusBarOverlaysWebView" value="false"/>
 	<preference name="StatusBarBackgroundColor" value="#5A328D"/>
-	<preference name="StatusBarStyle" value="blacktranslucent" />
+<!--	<preference name="StatusBarStyle" value="blacktranslucent" />
 
   
 <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
     <false/>
-</gap:config-file>
+</gap:config-file>-->
 
 	<gap:plugin name="org.apache.cordova.device-motion" />
 	<gap:plugin name="org.apache.cordova.dialogs" />
