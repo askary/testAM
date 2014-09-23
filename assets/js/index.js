@@ -215,19 +215,37 @@ if ( location.protocol.substr(0,4)  === 'file' ||
 		});
 	});
 }
-function hola(){
+function Home(){
 	//alert("desde js codigo");
-			  $.ajax({
-			   type: "POST",
-			   url: "http://alianzamedicamexicana.com/backendAppAM/continidoHome.php",
-			   cache: false,
-			   data: "a=1",
-			   success: function(msg){
-				//alert(msg);
-				$("#main_content").html(msg);
-					//alert("entra"+msg);
-			   }
-		    });
+	$("#loadingPage").fadeIn();
+	$.ajax({
+	   type: "POST",
+	   url: "http://alianzamedicamexicana.com/backendAppAM/continidoHome.php",
+	   cache: false,
+	   data: "a=1",
+	   success: function(msg){
+		//alert(msg);
+		$("#main_content").html(msg);
+			//alert("entra"+msg);
+		$("#loadingPage").fadeOut();
+	   }
+   });
+}
+function medical_education(){
+	//alert("desde js codigo");
+	$("#loadingPage").fadeIn();
+	$.ajax({
+	   type: "POST",
+	   url: "http://alianzamedicamexicana.com/backendAppAM/medical_education.php",
+	   cache: false,
+	   data: "a=1",
+	   success: function(msg){
+		//alert(msg);
+		$("#main_content").html(msg);
+			//alert("entra"+msg);
+		$("#loadingPage").fadeOut();
+	   }
+   });
 }
 $( document ).on( "mobileinit", function() {
 	//alert("funciona desde el archivo js");	
