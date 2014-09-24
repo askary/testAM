@@ -247,6 +247,38 @@ function medical_education(){
 	   }
    });
 }
+function investigation(){
+	//alert("desde js codigo");
+	$("#loadingPage").fadeIn();
+	$.ajax({
+	   type: "POST",
+	   url: "http://alianzamedicamexicana.com/backendAppAM/investigation.php",
+	   cache: false,
+	   data: "a=1",
+	   success: function(msg){
+		//alert(msg);
+		$("#main_content").html(msg);
+			//alert("entra"+msg);
+		$("#loadingPage").fadeOut();
+	   }
+   });
+}
+function blog(){
+	//alert("desde js codigo");
+	$("#loadingPage").fadeIn();
+	$.ajax({
+	   type: "POST",
+	   url: "http://alianzamedicamexicana.com/backendAppAM/blog.php",
+	   cache: false,
+	   data: "a=1",
+	   success: function(msg){
+		//alert(msg);
+		$("#main_content").html(msg);
+			//alert("entra"+msg);
+		$("#loadingPage").fadeOut();
+	   }
+   });
+}
 $( document ).on( "mobileinit", function() {
 	//alert("funciona desde el archivo js");	
 
