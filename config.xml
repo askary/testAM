@@ -28,8 +28,8 @@
 	<preference name="disable-cursor" value="false" />
 	<preference name="android-minSdkVersion" value="7" />
 	<preference name="android-installLocation" value="auto" />
-   <preference name="DisallowOverscroll" value="true"/>
-  <preference name="HideKeyboardFormAccessoryBar" value="true"/>
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="HideKeyboardFormAccessoryBar" value="true"/>
 
 	<preference name="StatusBarOverlaysWebView" value="false"/>
 	<preference name="StatusBarBackgroundColor" value="#5A328D"/>
@@ -62,7 +62,7 @@
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	<gap:plugin name="org.apache.cordova.vibration" />
 	<gap:plugin name="com.pushwoosh.plugins.pushwoosh" version="3.0.2" />
-  
+    <gap:plugin name="org.apache.cordova.network-information" version="0.2.7" />
   
   <icon src="icon.png" />
   <gap:splash src="splash.png" />
