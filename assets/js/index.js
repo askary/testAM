@@ -217,8 +217,8 @@ if ( location.protocol.substr(0,4)  === 'file' ||
 }
 function Home(){
 	//alert("desde js codigo");
-	$("#loadingPage").fadeIn();
-	$.ajax({
+	//$("#loadingPage").fadeIn();
+  $.ajax({
 	   type: "POST",
 	   url: "http://alianzamedicamexicana.com/backendAppAM/continidoHome.php",
 	   cache: false,
@@ -227,7 +227,7 @@ function Home(){
 		//alert(msg);
 		$("#main_content").html(msg);
 			//alert("entra"+msg);
-		$("#loadingPage").fadeOut();
+		//$("#loadingPage").fadeOut();
 	   }
    });
 }
